@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entries_list_algo">
+        <item>MD5</item>
+    </string-array>
+    <string-array name="entryvalues_list_algo">
+        <item>MD5</item>
+    </string-array>
+    <string name="prefer_algo">prefer_algo</string>
+    <string name="prefer_algo_name">Algorithm</string>
+    <string name="entryvalues_list_algo_default">MD5</string>
+
+    <string-array name="entries_list_threads">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="entryvalues_list_threads">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+    </string-array>
+    <string name="prefer_threads">prefer_threads</string>
+    <string name="prefer_threads_name">Threads (unit)</string>
+    <string name="entryvalues_list_threads_default">4</string>
+
+    <string-array name="entries_list_timeout">
+        <item>3 min.</item>
+        <item>10min.</item>
+        <item>30min.</item>
+        <item>No Timeout</item>
+    </string-array>
+    <string-array name="entryvalues_list_timeout">
+        <item>3</item>
+        <item>10</item>
+        <item>30</item>
+        <item>0</item>
+    </string-array>
+    <string name="prefer_timeout">prefer_timeout</string>
+    <string name="prefer_timeout_name">Timeout (min.)</string>
+    <string name="entryvalues_list_timeout_default">3</string>
+
+</resources>

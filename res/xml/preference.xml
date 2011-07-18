@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+		
+    <ListPreference android:key="@string/prefer_algo" 
+                    android:title="@string/prefer_algo_name"
+                    android:summary="@string/entryvalues_list_algo_default" 
+                    android:entries="@array/entries_list_algo"
+                    android:entryValues="@array/entryvalues_list_algo"
+                    android:defaultValue="@string/entryvalues_list_algo_default"
+    />
+		
+    <ListPreference 
+    	android:key="@string/prefer_threads"
+        android:title="@string/prefer_threads_name" 
+        android:summary="@string/entryvalues_list_threads_default" 
+		android:entries="@array/entries_list_threads"
+		android:entryValues="@array/entryvalues_list_threads"
+		android:defaultValue="@string/entryvalues_list_threads_default"
+	/>
+
+    <ListPreference 
+    	android:key="@string/prefer_timeout"
+        android:title="@string/prefer_timeout_name" 
+        android:summary="@string/entryvalues_list_timeout_default" 
+		android:entries="@array/entries_list_timeout"
+		android:entryValues="@array/entryvalues_list_timeout"
+		android:defaultValue="@string/entryvalues_list_timeout_default"
+	/>
+
+</PreferenceScreen>

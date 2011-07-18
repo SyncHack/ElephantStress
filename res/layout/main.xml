@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_gravity="center">
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textScore" android:text="--.-" android:textSize="60sp"></TextView>
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" WU"></TextView>
+</LinearLayout>
+
+<ScrollView android:layout_height="wrap_content" android:id="@+id/scrollView1" android:layout_width="fill_parent" android:layout_weight="1.0">
+    <LinearLayout android:layout_height="fill_parent" android:orientation="horizontal" android:layout_width="fill_parent" android:id="@+id/linearLayout1">
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textInfo" android:typeface="monospace"></TextView>
+    </LinearLayout>
+</ScrollView>
+
+<ToggleButton android:layout_height="wrap_content" android:layout_width="fill_parent" android:textOn="Stress ON" android:textOff="Stress OFF" android:id="@+id/btn_stress"></ToggleButton>
+
+</LinearLayout>

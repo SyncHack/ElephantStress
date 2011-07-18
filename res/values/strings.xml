@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Elephant Stress</string>
+	<string name="dialog_message_infor">Elephant Stress\nCopyright Makoto NARA (Mc.N) 2011\n\nhttp://synchack.com/android/elephantstress</string>
+    <string name="menu_info">Information</string>
+    <string name="menu_setting">Setting</string>
+</resources>
